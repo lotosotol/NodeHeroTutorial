@@ -4,8 +4,11 @@
   "description": "Node Hero - The Complete Tutorial Series by RisingStack - developed by LOTOS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "mocha test",
+    "my-custom-script1": "echo npm",
+    "my-custom-script2": "echo \"Error: no test specified\" && exit 1",
+    "my-custom-script3": "these can be invoked with 'npm run my-custom-script'"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,8 @@
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
   }
 }
