@@ -1,0 +1,25 @@
+---> to get this project from git then run next commands:
+git clone https://github.com/lotosotol/NodeHeroTutorial.git NodeHeroTutorial(- this is the folder name where to clone)
+git init
+
+---> BRANCHES:
+---> to list all the branches (local & remote) run next:
+git branch --all
+git branch -a
+
+--> OR to list remote branches only run next:
+git branch -r
+
+
+---> NOW to pull all the branches run next:
+git fetch --all
+--> NOTE: "git fetch --all" & "git remote update" are equivalent
+
+---> to update all local branches which track remote branches run next:
+git pull --all
+
+---> OR if you want to pull only a specific branch just use:
+git checkout branchname
+
+---> done (you can now pull/push, etc..)
+
