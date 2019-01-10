@@ -23,6 +23,10 @@ git checkout branchname
 
 ---> done (you can now pull/push, etc..)
 
+NOTE: om prder to view the URL and branches run next:
+git remote show origin
+
+
 NOTE: in order to be able to pull/push/etc you need to set your username & email + log into git hub:
 ---> to add a global user name run next:
 git config --global user.name "yourUserName"
