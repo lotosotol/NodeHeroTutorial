@@ -23,8 +23,11 @@ git checkout branchname
 
 ---> done (you can now pull/push, etc..)
 
-NOTE: om prder to view the URL and branches run next:
+NOTE: in order to view the URL and branches (full output / the referential integrity) run next:
 git remote show origin
+
+for the URL only, run next:
+git config --get remote.origin.url
 
 
 NOTE: in order to be able to pull/push/etc you need to set your username & email + log into git hub:
